@@ -3,7 +3,6 @@
 *
 * @package PM SPy
 * @copyright (c) 2016 ForumHulp.com
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -19,36 +18,36 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_PM_SPY'			=> 'PB Spion',
+	'ACP_PM_SPY'			=> 'Privéberichten Spion',
 	'AUTHOR_IP'				=> 'Auteur IP',
 	'DATE'					=> 'Datum',
 	'LAST_ONLINE'			=> 'Laatste online datum:',
-	'DELETE_PMS'			=> 'Verwijder PB’s',
-	'NO_PM_SELECTED'		=> 'Geen PB’s geselecteerd',
-	'NO_PM_DATA'			=> 'Geen PB’s data',
-	'PM_BOX'				=> 'PB box',
-	'PM_SPY_READ'			=> 'Private Berichten Spion',
-	'PM_SPY_READ_EXPLAIN'	=> 'Hier is een lijst van alle private berichten op je forum.',
-	'READ_MESSAGE'			=> 'Klik op dit bericht te lezen',
+	'DELETE_PMS'			=> 'Verwijder Privéberichten',
+	'NO_PM_SELECTED'		=> 'Geen Privéberichten geselecteerd',
+	'NO_PM_DATA'			=> 'Geen Privéberichten data',
+	'PM_BOX'				=> 'Privéberichten box',
+	'PM_SPY_READ'			=> 'Privéberichten Spion',
+	'PM_SPY_READ_EXPLAIN'	=> 'Hier is een lijst van alle Privéberichten op je forum.',
+	'READ_MESSAGE'			=> 'Klik om dit bericht te lezen',
 	'TO'					=> 'Naar',
 	'TOTAL_USERS'			=> 'Totaal gebruikers',
-	'PM_COUNT'				=> 'PB teller',
+	'PM_COUNT'				=> 'Privéberichten teller',
 
 	'PM_HOLDBOX'			=> 'Ingehouden',
 	'PM_INBOX'				=> 'Inbox',
 	'PM_NOBOX'				=> 'Geen box',
-	'PM_OUTBOX'				=> 'Outbox',
+	'PM_OUTBOX'				=> 'Postvak uit',
 	'PM_SAVED'				=> 'Opgeslagen',
 	'PM_SENTBOX'			=> 'Verzonden',
 
 	'SORT_FROM'				=> 'Van',
 	'SORT_TO'				=> 'Naar',
 	'SORT_BCC'				=> 'BCC',
-	'SORT_PM_BOX'			=> 'PB box',
+	'SORT_PM_BOX'			=> 'Privéberichten box',
 
-	'LOG_PM_SPY'			=> '<strong>PB’s verwijderd door PB Spion</strong><br />',
+	'LOG_PM_SPY'			=> '<strong>Privéberichten verwijderd door Privéberichten Spion</strong><br>',
 
-	'FH_HELPER_NOTICE'		=> 'Forumhulp helper applicatie bestaat niet! !<br />Download <a href="https://github.com/ForumHulp/helper" target="_blank">forumhulp/helper</a> en upload de helper folder naar je forumhulp extensie folder.',
+	'FH_HELPER_NOTICE'		=> 'Forumhulp helper applicatie bestaat niet! !<br>Download <a href="https://github.com/ForumHulp/helper" target="_blank">forumhulp/helper</a> en upload de helper folder naar je forumhulp extensie folder.',
 	'PMSPY_NOTICE'			=> '<div class="phpinfo"><p class="entry">Deze extensie is gevestigd in %1$s » %2$s » %3$s.</p></div>',
 ));
 
